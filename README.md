@@ -1,3 +1,5 @@
+ # Here is the answers of the question asked in the assignment and the updated codes are in the index.js file
+
 # Explain what the simple list component does?
 Answer-->: This simple list component basically renders the items present in the array in the form of lists.Further the click handler is assigned to each and every list which changes the value of the "setSelected" state .While displaying the list of items it sets the background color of the items dynamically .If any list item is clicked then its background color is changed to green otherwise their default color will be red.This list uses different hooks namely useState,useEffect,memo(for memoization purpose) and the most importantly the ['prop-types'] which is used to validate the data types of the default props present or the props passed to any other component while rendering.
 
